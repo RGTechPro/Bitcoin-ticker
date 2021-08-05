@@ -1,7 +1,7 @@
 bitcoin_ticker
 2.1
-file:///C:/Users/rishu/AndroidStudioProjects/bitcoin-ticker-flutter/
-file:///C:/Users/rishu/AndroidStudioProjects/bitcoin-ticker-flutter/lib/
+file:///C:/Users/rishu/AndroidStudioProjects/Bitcoin-ticker/
+file:///C:/Users/rishu/AndroidStudioProjects/Bitcoin-ticker/lib/
 async
 2.12
 file:///C:/flutter_windows_2.0.1-stable/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.6.1/
@@ -34,6 +34,10 @@ fake_async
 2.12
 file:///C:/flutter_windows_2.0.1-stable/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0/
 file:///C:/flutter_windows_2.0.1-stable/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0/lib/
+flutter_config
+2.12
+file:///C:/flutter_windows_2.0.1-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_config-2.0.0/
+file:///C:/flutter_windows_2.0.1-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_config-2.0.0/lib/
 http
 2.12
 file:///C:/flutter_windows_2.0.1-stable/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.3/

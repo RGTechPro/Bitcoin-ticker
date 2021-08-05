@@ -3,8 +3,7 @@ import 'coin_data.dart';
 import 'package:flutter/cupertino.dart';
 import 'dart:io' show Platform;
 import 'networking.dart';
-
-const apikey = 'B373DBDB-D58B-4060-BD6A-1A99AE36C1A0';
+import 'package:flutter_config/flutter_config.dart';
 
 class PriceScreen extends StatefulWidget {
   @override
@@ -95,7 +94,7 @@ class _PriceScreenState extends State<PriceScreen> {
     for (int i = 0; i < price.length; i++) {
       String crypto = cryptoList[i];
       NetworkHelp n = NetworkHelp(
-          'https://rest.coinapi.io/v1/exchangerate/$crypto/$selectedCurrency?apikey=$apikey');
+          'https://rest.coinapi.io/v1/exchangerate/$crypto/$selectedCurrency?apikey=${FlutterConfig.get('FABRIC_ID')}');
       var cryptoData = await n.getData();
       setState(() {
         double p = cryptoData['rate'];

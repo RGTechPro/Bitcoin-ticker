@@ -1,6 +1,7 @@
 package io.flutter.plugins;
 
 import io.flutter.plugin.common.PluginRegistry;
+import com.byneapp.flutter_config.FlutterConfigPlugin;
 
 /**
  * Generated file. Do not edit.
@@ -10,6 +11,7 @@ public final class GeneratedPluginRegistrant {
     if (alreadyRegisteredWith(registry)) {
       return;
     }
+    FlutterConfigPlugin.registerWith(registry.registrarFor("com.byneapp.flutter_config.FlutterConfigPlugin"));
   }
 
   private static boolean alreadyRegisteredWith(PluginRegistry registry) {
